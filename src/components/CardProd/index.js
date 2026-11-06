@@ -1,7 +1,7 @@
-export default function CardProd({prod}) {
+export default function CardProd({nome, id}) {
     return (
         <div>
-            <h2>id nome</h2>
+            <h2>id {id} nome{nome}</h2>
             <p>descrição</p>
             <p>Estoque</p>
             <p>Preço</p>

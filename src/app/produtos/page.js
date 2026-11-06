@@ -79,7 +79,7 @@ export default function Produtos() {
                 </div>
             }
             {/* { como criar uma renderização condicional com base no estado prod?} */}
-            {prodSelected && <CardProd />}
+            {prodSelected && <CardProd nome= {prodSelected.nome} id={prodSelected.id} />}
         </div >
     )
 }
